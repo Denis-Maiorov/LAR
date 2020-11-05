@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/checkBoxShadow.js"></script>
+    <script src="js/loadMain.js"></script>
+    <script src="js/addTableRow.js"></script>
+</head>
+<body onload="loadMain()">
+    <h2>Hello</h2>
+    <button id="button" onclick="addTableRow()">добавление строки</button>
+    <input type="checkbox" id="one" onchange="shadow()"><i>Скрыть выполненые</i>
+    <form>
+        <table id="tableOne" width ="650"  border="1" >
+                <tr>
+                    <th>ID</th>
+                    <th>Наименование</th>
+                    <th>Дата</th>
+                    <th>Статус</th>
+                    <th>Действия</th>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
